@@ -46,6 +46,7 @@ print('Чаще всего встречается число {}'.format(ran_arr[
 print()
 
 # 5. В массиве найти максимальный отрицательный элемент. Вывести на экран его значение и позицию в массиве.
+ran_arr = [random.randint(-20, 20) for _ in range(0, 20)]
 min_el = 0
 index_el = 0
 for i in range(0, ran_arr.__len__() - 1):
